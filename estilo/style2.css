@@ -155,7 +155,7 @@ main h1{
 main h2 {
     font-family:var(--fonte-Android);
     color:var(--cor4);
-    font-size: 1.3em;
+    font-size: 3vw;
     font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
