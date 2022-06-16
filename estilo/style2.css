@@ -69,21 +69,26 @@ header img {
 
 h1 {
 	 color:black;
-    font-family:var(--fonte-destaque);
-    font-size: 2vw;
+    font-family:Arial;
+    font-size:(40px,5vw);
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+	background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+	text-align:center;
 }
 
-h2{
+
+
+/*h2{
 color:var(--cor5);
     font-family:var(--fonte-Android);
     font-weight: normal;
    	font-size:3vw;
 	background-color:var(--cor1);	
 	
-}
+}*/
 
 h3{
 	position: absolute;
@@ -143,29 +148,21 @@ main {
 }
 
 
-
-main h1{
-    color:var(--cor5);
-    font-family:var(--fonte-Android);
-    font-weight: normal;
-  	font-size:3vw;
-	background-color:var(--cor1);
-}
-
-main h2 {
-    font-family:var(--fonte-Android);
+main h1 {
+    font-family:Arial;
     color:var(--cor4);
-    font-size: 50px;
+    font-size: max(30px,5vw);
     font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
+	text-align:center;
 }
 
 main p {
     margin: 15px 0px;
     text-align: center;
     text-indent: 30px;
-    font-size:2vw;
+    font-size:5vw;
     line-height: 1.5em;
 	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
