@@ -81,7 +81,7 @@ header img {
 h1 {
 font-family:Arial;
     color:var(--cor4);
-    font-size: max(30px,5vw);
+    font-size: min(30px,5vw);
     font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
@@ -152,13 +152,14 @@ main {
     margin-bottom: 30px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+	
 }
 
 
 main h1 {
     font-family:Arial;
     color:var(--cor4);
-    font-size: max(30px,5vw);
+    font-size: min(30px,5vw);
     font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
@@ -172,7 +173,7 @@ main p {
     font-size: min(30px, 4vw);
     line-height: 1.5em;
 	/*box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);*/
-	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+	/*text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);/*
 	
     }
 
